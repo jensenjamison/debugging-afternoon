@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './NavBar.css';
-import Logo from './../dev-mountain-logo.png'
+import Logo from './dev-mountain-logo.png'
 
 class NavBar extends Component {
   render() {
@@ -10,7 +10,6 @@ class NavBar extends Component {
           <div className="logo-container">
             <img className="logo-image" src={Logo} alt="" />
           </div>
-
           <div className="navbar-links-container">
             <ul className="navbar-links">
               <li onClick={() => this.props.navigate('store')}>Store</li>
